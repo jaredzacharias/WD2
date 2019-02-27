@@ -2,6 +2,10 @@ img {
   max-width:100%;
 }
 
+#travelpicture{
+  margin:auto;
+}
+
 body {
   font-family: Verdana;
   background: linear-gradient(to right, lightgreen, teal);
