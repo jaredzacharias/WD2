@@ -237,9 +237,9 @@ footer p {
   margin:1%;
   grid-template-areas:
     "header header header"
-    "nav main top"
-    "nav main middle"
-    "nav main bottom"
+    "nav main article"top" "
+    "nav main article"middle" "
+    "nav main article"bottom" "
     "footer footer footer";
     }
 	
