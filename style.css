@@ -139,21 +139,18 @@ padding: 10px 0;
 }
 	
 article{
-	
+background: rgba (0,0,0,.2);	
 }
 
 .middle{
-background:rgba(0,0,0.2)
 grid-area: middle;
 }
 
 .top{
-background:rgba(0,0,0.2)	
 grid-area: top
 }
 
 .bottom{
-background:rgba(0,0,0.2)
 grid-area: bottom
 }
 
