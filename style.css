@@ -143,15 +143,18 @@ article{
 }
 
 .middle{
-	
+background:rgba(0,0,0.2)
+grid-area: middle;
 }
 
 .top{
-	
+background:rgba(0,0,0.2)	
+grid-area: top
 }
 
 .bottom{
-	
+background:rgba(0,0,0.2)
+grid-area: bottom
 }
 
 
