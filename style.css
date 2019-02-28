@@ -113,10 +113,46 @@ footer p {
   color:white;
   margin:0;
 
+aside{
+grid-area: aside;
+background:rgba(0,0,0.2)
+padding: 10px;
+}
+	
+aside li{
+color: navy;
+padding: 10px 0;
+}
+	
+aside a{
+color: white;
+}
 
+aside a:hover{
+color: navy;
+}
 
+aside h2{
+text-align: center;
+color: navy;
+padding: 10px 0;
+}
+	
+article{
+	
+}
 
+.middle{
+	
+}
 
+.top{
+	
+}
+
+.bottom{
+	
+}
 
 
 }
@@ -237,9 +273,9 @@ footer p {
   margin:1%;
   grid-template-areas:
     "header header header"
-    "nav main article"top" "
-    "nav main article"middle" "
-    "nav main article"bottom" "
+    "nav main top"
+    "nav main middle"
+    "nav main bottom"
     "footer footer footer";
     }
 	
