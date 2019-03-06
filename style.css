@@ -158,7 +158,7 @@ grid-area: bottom;
     "aside";   
     }
 
-.container2 { /*for blog.html*/
+.container3 { /*for special.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -171,6 +171,19 @@ grid-area: bottom;
     "middle"
     "bottom"
     "footer";
+    }
+
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+    "aside";   
     }
 
 /*This stuff is for the hamburger menu*/
@@ -223,6 +236,19 @@ grid-area: bottom;
     "bottom bottom"
     "footer footer";
     }
+	
+.container3 { /*for special.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+    "aside";   
+    }
 
 
 /* Below will change from hamburger menu to side navigation*/
@@ -265,6 +291,19 @@ grid-area: bottom;
     "nav main middle"
     "nav main bottom"
     "footer footer footer";
+    }
+	
+.container3 { /*for special.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+    "aside";   
     }
 	
 
