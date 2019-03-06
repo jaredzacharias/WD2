@@ -158,7 +158,7 @@ grid-area: bottom;
     "aside";   
     }
 
-.container3 { /*for special.html*/
+.container2 { /*for blog.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -173,7 +173,7 @@ grid-area: bottom;
     "footer";
     }
 
-.container1 { /*for index.html*/
+.container3 { /*for special.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -182,8 +182,8 @@ grid-area: bottom;
     "header"
     "nav"
     "main"
-    "footer"
-    "aside";   
+    "fig2"
+    "footer";   
     }
 
 /*This stuff is for the hamburger menu*/
@@ -243,13 +243,17 @@ grid-area: bottom;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "footer"
-    "aside";   
-    }
+   “header header”
+   “nav main”
+   “fig2 fig2”
+   “footer footer”;
+ }
 
+.nestedgrid{
+   grid-template-areas:
+   “section”
+   “fig1”;
+}
 
 /* Below will change from hamburger menu to side navigation*/
   
@@ -293,18 +297,21 @@ grid-area: bottom;
     "footer footer footer";
     }
 	
-.container3 { /*for special.html*/
+   .container3 { /*for special.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "footer"
-    "aside";   
-    }
+   “header header”
+   “nav main”
+   “fig2 fig2”
+   “footer footer”;
+ }
 	
+.nestedgrid{
+   grid-template-areas:
+   “section fig1”;
+}	
 
 	}
