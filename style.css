@@ -270,16 +270,16 @@ background:rgba(0,0,0,.2);
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-   "header header”
-   "nav main”
-   "fig2 fig2”
-   "footer footer”;
+   "header header"
+   "nav main"
+   "fig2 fig2"
+   "footer footer";
  }
 
 .nestedgrid{
    grid-template-areas:
-   "section”
-   "fig1”;
+   "section"
+   "fig1";
 }
 
 /* Below will change from hamburger menu to side navigation*/
@@ -331,14 +331,14 @@ background:rgba(0,0,0,.2);
   margin:1%;
   grid-template-areas:
    "header header"
-   "nav main”
-   "fig2 fig2”
-   "footer footer”;
+   "nav main"
+   "fig2 fig2"
+   "footer footer";
  }
 	
 .nestedgrid{
    grid-template-areas:
-   "section fig1”;
+   "section fig1";
 }	
 
 	}
