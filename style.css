@@ -158,6 +158,19 @@ figure img{
 padding-top: 10px;
 }
 
+section{
+grid-area:section;
+}
+
+.fig1{
+grid-area:fig1;
+background:rgba(0,0,0,.2);
+}
+
+.fig2{
+grid-area:fig2;
+background:rgba(0,0,0,.2);
+}
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
