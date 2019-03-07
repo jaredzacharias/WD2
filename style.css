@@ -239,20 +239,20 @@ grid-area: bottom;
 	
 .container3 { /*for special.html*/
   display: grid;
-  grid-template-columns:100%;
+  grid-template-columns:auto 1fr;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-   “header header”
-   “nav main”
-   “fig2 fig2”
-   “footer footer”;
+   "header header”
+   "nav main”
+   "fig2 fig2”
+   "footer footer”;
  }
 
 .nestedgrid{
    grid-template-areas:
-   “section”
-   “fig1”;
+   "section”
+   "fig1”;
 }
 
 /* Below will change from hamburger menu to side navigation*/
@@ -299,19 +299,19 @@ grid-area: bottom;
 	
    .container3 { /*for special.html*/
   display: grid;
-  grid-template-columns:100%;
+  grid-template-columns:auto 1fr;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-   “header header”
-   “nav main”
-   “fig2 fig2”
-   “footer footer”;
+   "header header"
+   "nav main”
+   "fig2 fig2”
+   "footer footer”;
  }
 	
 .nestedgrid{
    grid-template-areas:
-   “section fig1”;
+   "section fig1”;
 }	
 
 	}
