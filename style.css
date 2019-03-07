@@ -143,6 +143,20 @@ grid-area: middle;
 grid-area: bottom;
 }
 
+figure{
+margin:0;
+text-align:center;
+}
+
+figcaption{
+padding: 5px;
+color:navy;
+font-weight:bold;
+}
+
+figure img{
+padding-top: 10px;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
