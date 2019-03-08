@@ -212,7 +212,11 @@ background:rgba(0,0,0,.2);
     "fig2"
     "footer";   
     }
-
+.nestedgrid{
+   grid-template-areas:
+   "section"
+   "fig1";
+}
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
