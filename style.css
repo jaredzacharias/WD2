@@ -228,6 +228,7 @@ background:rgba(0,0,0,.2);
     "footer";   
     }
 .nestedgrid{
+   display:grid;
    grid-template-areas:
    "section"
    "fig1";
@@ -308,6 +309,7 @@ background:rgba(0,0,0,.2);
  }
 
 .nestedgrid{
+   display:grid;
    grid-template-areas:
    "section"
    "fig1";
@@ -378,7 +380,7 @@ background:rgba(0,0,0,.2);
  }
 	
 .nestedgrid{
-   grid-template-columns:1fr 1fr;
+   display:grid;
    grid-template-areas:
    "section fig1";
 }	
