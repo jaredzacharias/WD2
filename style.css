@@ -264,6 +264,11 @@ background:rgba(0,0,0,.2);
     "main"
     "footer";   
     }
+.nestedgrid2{
+   display:grid;
+   grid-template-areas:
+   "div1"
+   "div2";
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -344,6 +349,11 @@ background:rgba(0,0,0,.2);
     "nav main"
     "footer footer";   
     }
+.nestedgrid2{
+   display:grid;
+   grid-template-areas:
+   "div1"
+   "div2";
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -414,4 +424,8 @@ background:rgba(0,0,0,.2);
     "nav main"
     "footer footer";   
     }
+.nestedgrid2{
+   display:grid;
+   grid-template-areas:
+   "div1 div2";
 	}
