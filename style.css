@@ -208,6 +208,16 @@ section{
 grid-area:section;
 }
 
+.div1{
+grid-area:div1;
+background:rgba(0,0,0,.2);
+}
+
+.div2{
+grid-area:div2
+background:rgba(0,0,0,.2);
+}
+
 .fig1{
 grid-area:fig1;
 background:rgba(0,0,0,.2);
@@ -281,6 +291,7 @@ background:rgba(0,0,0,.2);
    grid-template-areas:
    "div1"
    "div2";
+}
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -366,6 +377,7 @@ background:rgba(0,0,0,.2);
    grid-template-areas:
    "div1"
    "div2";
+}
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
