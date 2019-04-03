@@ -31,13 +31,22 @@
   <div class="div1">
      Name* <input type="text" size="30" name="fullname" placeholder="John Doe" autofocus required spellcheck="false" autocomplete="off"><br>
      Email* <input type="email" size="30" name="email"><br>
-     Phone* <input type="tel" size="30" name="phone"><br>
-     Personal Website <input type="url" size="30" name="fullname"><br>
+     Phone* <input type="tel" size="30" placeholder="(xxx)xxx-xxxx" name="phone"><br>
+     Personal Website <input type="url" size="30" name="website"><br>
      </div>
-  <div class="div2">
-    Next Destination<input type="text" size="30" name="fullname"><br>
-    Expected Date of Departure <input type="text" size="30" name="fullname"><br>
-    Number of flights on the trip<input type="text" size="30" name="fullname"><br>
+  
+    <div class="div2">
+    Next Destination<input type="text" size="30" list="vaca"><br>
+    <datalist id="vaca">
+    <options value="Beijing">
+    <options value="Lisbon">
+    <options value="Paris">
+    <options value="Sydney">
+    <options value="Tokyo">
+    <options value="Washington D.C.">
+    </datalist>
+    Expected Date of Departure <input type="date" placeholder="mm/dd/yyyy" name="date"><br>
+    Number of flights on the trip<input type="number" min="1" max="8" step="1" value="6" name="numeric data"><br>
     <input type="submit" value="Help Me Book My Trip" class="button">
     </div>
    
