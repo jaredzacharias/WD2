@@ -1,3 +1,9 @@
+.button{
+padding:5px;
+color:lightseagreen;
+background:navy;
+}
+
 audio {
  max-width: 100%; 
 }
