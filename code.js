@@ -1,8 +1,8 @@
 $(document).ready(function() {
       $('.toggleNav').click(function() {
         $('#flex-nav ul').toggleClass('open');
-      $('.button').click(DropShadow) {
-            $(.phone).click(show);
+       $('.button').hover(‘shadow’); 
+            $(button.addClass(‘shadow’); 
       $('.phone').click(show) {
             $(.phone).click(disappear);
       });
