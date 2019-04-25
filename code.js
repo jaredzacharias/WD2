@@ -10,7 +10,7 @@ $(document).ready(function() {
 });
       $('.button').click(function(){
         $(this).removeClass('shadow');
-   }),
+   });
       $('.button').mouseleave(function(){
          $(this).addClass('shadow');
       });
