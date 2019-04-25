@@ -1,7 +1,7 @@
 $(document).ready(function() {
       $('input').on("focus", function (){
          $(this).css('outline-color','navy');
-      
+      });
       $('.toggleNav').click(function() {
         $('#flex-nav ul').toggleClass('open');
     });
