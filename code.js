@@ -1,5 +1,5 @@
 $(document).ready(function() {
-      $('input').on("focus", function (){
+      $('input').on("focus", function(){
          $(this).css('outline-color','navy');
       });
       $('.toggleNav').click(function() {
@@ -8,7 +8,7 @@ $(document).ready(function() {
       $(.'call').click(function() {
         $('.phone').slideToggle('slow')       
 });
-      $('button').click(function(){
+      $('.button').click(function(){
         $(this).removeClass('shadow');
    }),
       $('.button').mouseleave(function(){
